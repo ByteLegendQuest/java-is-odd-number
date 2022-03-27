@@ -17,6 +17,10 @@ public class ChallengeTest {
     @Test
     public void test() {
         IntStream.range(-10, 10)
-                .forEach(i -> Assertions.assertEquals(Challenge.isOdd(i), i % 2 != 0));
+                .filter(i -> i % 2 == 0)
+                .forEach(i -> Assertions.assertEquals("even", Challenge.isOdd(i)));
+        IntStream.range(-10, 10)
+                .filter(i -> i % 2 != 0)
+                .forEach(i -> Assertions.assertEquals("odd", Challenge.isOdd(i)));
     }
 }

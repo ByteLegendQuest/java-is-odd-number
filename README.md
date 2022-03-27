@@ -95,7 +95,7 @@ Any changes to files other than the following files will be rejected:**
 
 ### Comprobar si un entero es impar
 
-Reemplace `if/else` en el método `isOdd()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/src/main/java/com/bytelegend/Challenge.java) con el operador ternario `? :` y corregir un error en el método.
+Reemplace `if/else` en el método `isOdd()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/src/main/java/com/bytelegend/Challenge.java) con el operador ternario `? :` , y corregir un error en el método.
 
 `isOdd()` comprueba si un número entero es impar. Devuelve la cadena `"odd"` si es impar, cadena `"even"` de lo contrario.
 
@@ -160,9 +160,9 @@ Por favor, substitua `if/else` no método `isOdd()` de [src/main/java/com/bytele
         -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-is-odd-number/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-is-odd-number) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumprir o desafio.
+-   O bot verificará seu PR e informará se você cumpriu o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
 Boa sorte!
@@ -324,7 +324,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 `isOdd()` 는 정수가 홀수인지 확인합니다. 홀수이면 문자열 `"odd"` 를 반환하고 그렇지 않으면 문자열 `"even"` 반환합니다.
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
-    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-is-odd-number` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출하세요.
+    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-is-odd-number` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
         -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-is-odd-number/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
     -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-is-odd-number/zip/refs/heads/main) 할 수 있습니다.

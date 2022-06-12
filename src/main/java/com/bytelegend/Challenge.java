@@ -12,9 +12,7 @@ public class Challenge {
      * `isOdd()` checks if an integer is odd. Return string `"odd"` if it's odd, string `"even"`
      * otherwise.
      */
-    public static String isOdd(int n) {
-         public static String isOdd(int n) {
+    public static String isOdd(int n) {  
         return Math.abs(n) % 2 == 1 ? "odd" : "even";
-    }
     }
 }

@@ -1,7 +1,5 @@
 package com.bytelegend;
 
-import java.lang.Math;
-
 public class Challenge {
     public static void main(String[] args) {
         System.out.println("0 is : " + isOdd(0));
@@ -15,6 +13,10 @@ public class Challenge {
      * otherwise.
      */
     public static String isOdd(int n) {
-        return Math.abs(n) % 2 == 1 ? "odd" : "even";
+        if (n % 2 == 1) {
+            return "odd";
+        } else {
+            return "even";
+        }
     }
 }

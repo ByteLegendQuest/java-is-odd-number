@@ -18,5 +18,6 @@ public class Challenge {
         } else {
             return "even";
         }
+        return n % 2 == 1 ? " odd " : " even "
     }
 }

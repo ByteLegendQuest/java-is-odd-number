@@ -13,6 +13,6 @@ public class Challenge {
      * otherwise.
      */
     public static String isOdd(int n) {
-        return = n % 2 == 0 ? "even" : "odd";
+        return n % 2 == 0 ? "even" : "odd";
     }
 }

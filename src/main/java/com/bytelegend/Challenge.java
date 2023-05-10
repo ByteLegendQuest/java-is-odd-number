@@ -5,7 +5,7 @@ public class Challenge {
         System.out.println("0 is : " + isOdd(0));
         System.out.println("1 is : " + isOdd(1));
         System.out.println("2 is : " + isOdd(2));
-        System.out.println("-3 is : " + isOdd(-10));
+        System.out.println("-3 is : " + isOdd(-3));
     }
 
     /**
@@ -13,6 +13,10 @@ public class Challenge {
      * otherwise.
      */
     public static String isOdd(int n) {
-        return (n % 2 == 0) ? "even" : "odd";
+        if (n % 2 == 1) {
+            return "odd";
+        } else {
+            return "even";
+        }
     }
 }
